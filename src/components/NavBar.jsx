@@ -6,7 +6,7 @@ export const NavBar = () => {
   	  <a href="#" > <img src={process.env.PUBLIC_URL + '/assets/logo.png'} alt=""/> </a>
   	  <ul>
   	    <li>
-	      	<a href="#">Faqss</a>
+	      	<a href="#">Faqsasasasasdasfasfasaaaas</a>
 				</li>
 	    	<li>
 	    	  <a href="producto.html">Producto y descripción</a>
