@@ -1,19 +1,17 @@
 import React from 'react'
-import { NavBar } from '../NavBar'
-import { MainSection } from '../MainSection'
-import { Products } from '../Products'
-import { Benefits } from '../Benefits'
-import { Mentions } from '../Mentions'
+import { Header } from '../Header'
+import { About } from '../About'
+import { Resume } from '../Resume'
+import { Portafolio } from '../Portafolio'
 import { Footer } from '../Footer'
+
 export const HomePage = () => {
 	return(
-		<div>
-			<NavBar />
-    	<MainSection />
-    	<Products />
-			<Benefits />
-    	<hr />
-			<Mentions />
+		<div className='font-mono'>
+    	<Header />
+    	<About />
+			<Resume />
+			<Portafolio />
     	<Footer />
     </div>
 	)
