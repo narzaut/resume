@@ -26,7 +26,7 @@ html, body{
   height: 100vh;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../assets/header-background.webp) no-repeat top center;
+  background: #161415 url(../assets/header-background.jpg no-repeat top center;
   background-size: cover !important;
 	-webkit-background-size: cover !important;
   text-align: center;
