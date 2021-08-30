@@ -6,7 +6,7 @@ export const Header= () => {
 		<header id="home" className="main_section fadeIn text-white">
 			<NavBar />
 			<div 
-				className='flex flex-col justify-start pt-10 md:pt-36 h-full items-center '
+				className='flex flex-col justify-start pt-20 h-full items-center '
 			>
 				<div className=' max-w-3xl'>
 					<div>
