@@ -7,7 +7,7 @@ import { Footer } from '../Footer'
 
 export const HomePage = () => {
 	return(
-		<div className='font-mono'>
+		<div className='font-mono '>
     	<Header />
     	<About />
 			<Resume />

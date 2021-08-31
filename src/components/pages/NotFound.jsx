@@ -3,7 +3,7 @@ import React from 'react'
 export const NotFound = () => {
 	return(
 		<div className="App">
-			<div class="bg-green-300 text-green-800 min-h-screen flex items-center">
+			<div class="bg-indigo-300 text-indigo-800 min-h-screen flex items-center">
   			<div class="container mx-auto p-4 flex flex-wrap items-center">
     			<div class="w-full md:w-5/12 flex items-center justify-center lg:justify-end md:justify-end">
       			<img src={process.env.PUBLIC_URL + "/assets/logo-placeholder.png"} alt="Not Found" />
@@ -16,7 +16,7 @@ export const NotFound = () => {
       				<div class="text-lg mb-8">
         			Es posible que haya escrito mal la dirección o que la página se haya movido.
       			</div>
-      			<a href="/" class="border border-green-700 rounded p-4">Ir al inicio</a>
+      			<a href="/" class="border border-indigo-700 rounded p-4">Ir al inicio</a>
     			</div>
   			</div>
 			</div>
