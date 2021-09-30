@@ -1,11 +1,17 @@
 import React from 'react'
 import { HomePage } from './components/pages/HomePage'
-const esLang = require('./lang/spanish.json')
-const enLang = require('./lang/english.json')
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { NotFound } from './components/pages/NotFound';
 
 function App() {
-  return (
-    <HomePage language={enLang}/>
+	
+	return (
+		<Router>
+			<Switch>
+				<Route exact path = '/' component={ HomePage }/>
+				<Route component={ NotFound } />
+			</Switch>
+		</Router>
   )
 }
 
