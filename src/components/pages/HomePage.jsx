@@ -5,14 +5,15 @@ import { Resume } from '../Resume'
 import { Portafolio } from '../Portafolio'
 import { Footer } from '../Footer'
 
-export const HomePage = () => {
+export const HomePage = ({ language }) => {
+	console.log(language.header)
 	return(
 		<div className='font-mono '>
-    	<Header />
-    	<About />
-			<Resume />
-			<Portafolio />
-    	<Footer />
+    	<Header data = {language.header}/>
+    	<About data = {language.about}/>
+			<Resume data = {language.resume}/>
+			<Portafolio data = {language.portfolio}/>
+    	<Footer data = {language.footer}/>
     </div>
 	)
 }

@@ -1,45 +1,45 @@
 import React from 'react'
 import { Bar } from './Bar'
 
-export const Resume = () => {
+export const Resume = ({ data }) => {
 	return(
 		<div id='resume' className='py-20 bg-gray-100 flex flex-col items-center justify-center divide-y divide-gray-300 '>
 			<div className='container px-0 md:px-20 lg:px-80 flex flex-col md:flex-row pb-10 items-center text-center md:items-start md:text-left'>
 				<div className='md:w-1/4 pb-8'>
-					<span className='pb-2 border-b-4 border-indigo-600 font-bold text-2xl '>EDUCACIÓN</span>
+					<span className='pb-2 border-b-4 border-indigo-600 font-bold text-2xl uppercase'>{data.education.title}</span>
 				</div>
 				<div className='w-3/4'>
 					<div>
-						<h1 className='font-bold text-2xl'>Universidad Nacional de Río Cuarto</h1>
-						<p className='text-gray-700 italic text-base pt-2 font-medium'>Analsita en Computación  <span className='text-gray-700 font-bold'>• Abandonada</span></p>
-						<p className='text-gray-600 text-base pt-4'>Curse primer año y regularice las materias Lógica, Introducción a la Algorítmica e Introducción al Algebra. (3/4). De todas maneras decidí dejar porque la dirección que tomaba no era lo que esperaba. </p>
+						<h1 className='font-bold text-2xl'>{data.education.unrc.title}</h1>
+						<p className='text-gray-700 italic text-base pt-2 font-medium'>{data.education.unrc.header} <span className='text-gray-700 font-bold'>• {data.education.unrc.status}</span></p>
+						<p className='text-gray-600 text-base pt-4'>{data.education.unrc.description} </p>
 					</div>
 					<div>
-						<h1 className='font-bold text-2xl pt-10'>Instituto Tecnológico de Río Cuarto</h1>
-						<p className='text-gray-700 italic text-base font-medium pt-2'>Tecnicatura Superior en Desarrollo de Software  <span className='text-gray-700 font-bold'>• En curso</span></p>
-						<p className='text-gray-600 text-base pt-4'>Me gustó mucho mas la experiencia academica de esta institución, llevo la carrera en buenas condiciones y tambien formo parte del equipo del iTec Lab (Iniciativa de la institución para introducir a los alumnos al mundo laboral).</p>
+						<h1 className='font-bold text-2xl pt-10'>{data.education.itec.title}</h1>
+						<p className='text-gray-700 italic text-base font-medium pt-2'>{data.education.itec.header} <span className='text-gray-700 font-bold'>• {data.education.itec.status}</span></p>
+						<p className='text-gray-600 text-base pt-4'>{data.education.itec.description}</p>
 					</div>
 				</div>
 			</div>
 			<div className='container px-0 md:px-20 lg:px-80 flex flex-col md:flex-row py-10 items-center text-center md:items-start md:text-left'>
 				<div className='md:w-1/4 pb-8'>
-					<span className='pb-2 border-b-4 border-indigo-600 font-bold text-2xl '>TRABAJO</span>
+					<span className='pb-2 border-b-4 border-indigo-600 font-bold text-2xl uppercase '>{data.work.title}</span>
 				</div>
 				<div className='w-3/4'>
 					<div>
-						<h1 className='font-bold text-2xl'>Plataforma EscuchActiva</h1>
-						<p className='text-gray-700 italic text-base pt-2 font-medium'>Front-end Developer  <span className='text-gray-700 font-bold'>• 2021</span></p>
-						<p className='text-gray-600 text-base pt-4'>Forme parte del equipo del iTec Lab como programador front-end para el desarrollo de la plataforma de EscuchActiva. Me encargue de trabajar en la landing page, y otras 3 views linkeadas al flujo de la misma. Se logró el diseño del mock-up provisto de manera optima full responsive. No tuve inconveniencias que no pudiera resolver por mis propios medios. </p>
+						<h1 className='font-bold text-2xl'>{data.work.escuchaActiva.title}</h1>
+						<p className='text-gray-700 italic text-base pt-2 font-medium'>{data.work.escuchaActiva.header}  <span className='text-gray-700 font-bold'>• {data.work.escuchaActiva.status}</span></p>
+						<p className='text-gray-600 text-base pt-4'>{data.work.escuchaActiva.description}</p>
 					</div>	
 				</div>
 			</div>
 			<div className='container px-0 md:px-20 lg:px-80 flex flex-col md:flex-row pt-10 items-center text-center md:items-start md:text-left'>
 				<div className='md:w-1/4 pb-8'>
-					<span className='pb-2 border-b-4 border-indigo-600 font-bold text-2xl '>SKILLS</span>
+					<span className='pb-2 border-b-4 border-indigo-600 font-bold text-2xl uppercase'>{data.skills.title}</span>
 				</div>
 				<div className='w-3/4'>
 					<div>
-						<h1 className='text-base text-gray-700 pb-10'>Estas son algunas de las tecnologias/frameworks que manejo. Los porcentajes no son del todo representativos.</h1>
+						<h1 className='text-base text-gray-700 pb-10'>{data.skills.description}</h1>
 						<ul>
 							<Bar name={'HTML5'} percentage={80} />
 							<Bar name={'CSS'} percentage={70} />

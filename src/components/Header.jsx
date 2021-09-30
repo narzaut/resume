@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavBar } from './NavBar'
 
-export const Header= () => {
+export const Header= ({ data }) => {
 	return(
 		<header id="home" className="main_section fadeIn text-white text-shadow " >
 			<NavBar />
@@ -12,10 +12,10 @@ export const Header= () => {
 					<div>
 						<a className='transition' href='https://github.com/narzaut?tab=repositories'><i class=" hover-press-animation fab fa-github text-9xl  cursor-pointer hover:text-indigo-600 transition-colors transition" ></i></a>
 						<h1 className='text-gray-200 text-5xl pt-6 md:text-6xl lg:text-7xl text-gray-100'>
-    					Ignacio Arzaut
+    					{data.title}
     				</h1>	
 						<p className='py-10 text-base md:text-lg lg:text-lg text-gray-300'>
-							Un desarrollador de software con mucha motivación para trabajar y seguir aprendiendo.
+							{data.description}
 						</p>
 					</div>	
 				</div>
