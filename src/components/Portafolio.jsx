@@ -3,8 +3,8 @@ import { Project } from './Project'
 
 export const Portafolio = ({ data }) => {
 	return(
-		<div className='bg-grey-100 p-10 flex flex-col items-center'>
-			<p className='pb-2 w-min border-b-4 flextext-center border-indigo-600 font-bold text-2xl uppercase'>{data.title}</p>
+		<div className='text-gray-800 bg-grey-100 p-10 flex flex-col items-center'>
+			<p className='pb-2 w-min border-b-4 flextext-center border-green-500 rounded-lg font-bold text-2xl uppercase'>{data.title}</p>
 			<p className='text-gray-600 text-base md:text-xl pt-10 text-center'>{data.description}</p>
 			<div className='text-shadow container p-10 flex flex-col md:flex-row items-center justify-center'>
 				<Project name={data.dictionary.title} description={data.dictionary.description} img={'diccionario-react.webp'} link={data.dictionary.url} />

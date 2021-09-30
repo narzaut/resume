@@ -2,18 +2,35 @@
 	"header": {
 		"navBar":[
 			"Home",
-			"About me",
+			"About",
 			"Curriculum",
 			"Portfolio"
 		],
-		"title":"I am Ignacio Arzaut",
-		"description": "A software developer with tons of motivation to work and keep learning!"
+		"title":"Ignacio Arzaut",
+		"description": "I am a software developer with tons of motivation to work and keep learning!"
 	},
 	"about":{
 		"title":"About me",
-		"description": "I'm a student from Río Cuarto - Córdoba. I consider myself to be a self-teaching person with critical thinking skills that loves to be in front of a computer, those three factors led me to develop a vocation for programming. At this moment I'm primarily focused on front-end with React, although I also have a little knowledge and experience working with NodeJS and Express. I'd like to keep developing a MERN Stack Developer skillset in the future.",		
+		"description": "I'm a student from Río Cuarto - Córdoba. I consider myself to be a self-teaching person with critical thinking skills who loves to be in front of a computer, those three factors led me to develop a vocation for programming. At this moment I'm primarily focused on front-end with React, although I also have some knowledge and experience working with NodeJS and Express. I'd like to keep developing a MERN Stack Developer profile in the future.",		
 		"contactTitle": "Contact details",
-		"contactDescription": ["Ignacio Arzaut", "Río Cuarto, Córdoba, 5800", "+54 3584 158246", "i.arzaut@itecriocuarto.org.ar"]
+		"contactDescription": [
+			{
+				"value":"Ignacio Arzaut",
+				"icon":"far fa-user"
+			},
+			{
+				"value":"Río Cuarto, Córdoba",
+				"icon":"fas fa-map-pin"
+			},
+			{
+				"value":"+54 3584 158246",
+				"icon":"fas fa-mobile-alt"
+			},
+			{
+				"value":"i.arzaut@itecriocuarto.org.ar",
+				"icon":"fas fa-at"
+			}
+		]
 	},
 	"resume":{
 		"education":{
@@ -22,7 +39,7 @@
 				"title": "National University of Río Cuarto",
 				"header":"System Analyst",
 				"status": "Dropped out",
-				"description": "I finished first year as a regular(condition) student in the subjects of Logic, Introduction to Algorithms, Introduction to Algebra. (3/4). I still opted for dropping out because it wasn't fully what I expected it to be."
+				"description": "I finished first year as a regular (condition) student in the subjects of Logic, Introduction to Algorithms and Introduction to Algebra. (3/4). I still opted for dropping out because it wasn't fully what I expected it to be."
 			},
 			"itec":{
 				"title": "Technological Institute Río Cuarto",
