@@ -1,18 +1,14 @@
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
-
+import { Item } from './Item'
 export const Footer = ({ data, aboutData }) => {
-	const Item = ({ item }) => {
-		return (
-			<span className=''><i className={`${item.icon} pr-6  self-center h-1 w-1 text-green-400`}></i>{ item.value }</span>
-		)
-	}
+	
 	return(
 		<footer id="footer" className='border-t-4 border-green-500 text-shadow relative bg-gray py-4 flex flex-col items-center text-gray-300 text-sm'> 
       <div className='flex  text-center pb-4  flex-col items-center lg:items-start '>
 						<p className='flex flex-col pt-4 text-sm lg:text-base  text-gray-300 leading-8'>				
-							{aboutData.contactDescription.map(item => {
-								return <Item item={ item }/>
+							{aboutData.contactDescription.map((item, index) => {
+								return index != 0 && <Item item={ item }/>
 							})}
 						</p>
 					</div>

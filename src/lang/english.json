@@ -19,16 +19,20 @@
 				"icon":"far fa-user"
 			},
 			{
-				"value":"Río Cuarto, Córdoba",
+				"value":"Río Cuarto, Córdoba, Argentina",
 				"icon":"fas fa-map-pin"
-			},
-			{
-				"value":"+54 3584 158246",
-				"icon":"fas fa-mobile-alt"
 			},
 			{
 				"value":"i.arzaut@itecriocuarto.org.ar",
 				"icon":"fas fa-at"
+			},
+			{
+				"value":"github.com/narzaut",
+				"icon": "fab fa-github"
+			},
+			{
+				"value":"+54 3584 158246",
+				"icon":"fas fa-phone-alt"
 			}
 		]
 	},
