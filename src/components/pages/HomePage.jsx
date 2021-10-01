@@ -23,7 +23,7 @@ export const HomePage = () => {
     	<About data = {text.about}/>
 			<Resume data = {text.resume}/>
 			<Portafolio data = {text.portfolio}/>
-    	<Footer data = {text.footer}/>
+    	<Footer data = {text.footer} aboutData = {text.about}/>
     </div>
 	)
 }

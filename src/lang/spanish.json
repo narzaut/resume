@@ -11,7 +11,7 @@
 	},
 	"about":{
 		"title": "Sobre mi",
-		"description":"Soy un estudiante oriundo de Río Cuarto - Córdoba. Me considero una persona autodidacta, de pensamiento crítico, y me encanta estar al frente de la computadora, estos tres factores me llevaron a despertar mi vocación por la programación. En este momento estoy principalmente enfocado en el front-end con React, pero tengo un poco de conocimiento y experiencia con NodeJS y Express. Aspiro a seguir desarrollando el skillset de un MERN Stack Developer.",
+		"description":"Soy un estudiante oriundo de Río Cuarto - Córdoba. Me considero una persona autodidacta, de pensamiento crítico, y me encanta estar al frente de la computadora, estos tres factores me llevaron a despertar mi vocación por la programación. En este momento estoy principalmente enfocado en el front-end con React, pero tengo un poco de conocimiento y experiencia con NodeJS y Express. Aspiro a seguir desarrollando el skillset y profile de un MERN Stack Developer.",
 		"contactTitle": "Contacto",
 		"contactDescription": [
 			{
@@ -91,7 +91,7 @@
 			"made":"Hecho por",
 			"by":"Ignacio Arzaut"
 		},
-		"copyright":"Copyright © 2021"
+		"copyright":"© 2021"
 	}
 
 }

@@ -2,11 +2,7 @@ import React from 'react'
 
 export const About = ({ data }) => {
 	
-	const Item = ({ item }) => {
-		return (
-			<span className=''><i className={`${item.icon} pr-6  self-center h-1 w-1 text-green-400`}></i>{ item.value }</span>
-		)
-	}
+	
 	
 	return(
 		<div id="products" class="text-shadow flex bg-gray text-white flex-row justify-center ">
@@ -24,14 +20,7 @@ export const About = ({ data }) => {
 							{data.description}
 						</p>
 					</div>
-					<div className='flex   flex-col items-center lg:items-start '>
-						<h1 className=' rounded font-bold text-2xl  pt-8 border-b-2 border-green-400 max-w-max'>{data.contactTitle}</h1>
-						<p className='flex flex-col pt-4 text-sm lg:text-base  text-gray-300 leading-8'>				
-							{data.contactDescription.map(item => {
-								return <Item item={ item }/>
-							})}
-						</p>
-					</div>
+					
 				</div>
 			</div>
     </div>
