@@ -56,9 +56,9 @@
 			"title":"Work",
 			"escuchaActiva":{
 				"title":"EscuchaActiva Platform",
-				"header":"Front-end Developer",
-				"status":"2021",
-				"description":"As mentioned above, I worked as a member of the iTec Lab Team in the front-end development of a webinar platform. I believe I was successful to achieve the mock up design in an optimal and fully responsive way. I had no inconvenients that I couldn't resolve by my own means."
+				"header":"Front-end developer",
+				"status":"Completed",
+				"description":"As mentioned above, I worked as a member of the iTec Lab Team in the front-end development of a webinar platform. I believe I successfully achieved the mock up design in an optimal and fully responsive way. I had no inconvenients that I couldn't resolve by my own means."
 			}
 		},
 		"skills":{
@@ -69,30 +69,41 @@
 	"portfolio":{
 		"title":"Portfolio",
 		"description": "These are some of my projects and work.",
-		"dictionary":{
-			"title":"Dictionary",
-			"description":"This is a React technical test for a software developing company.",
-			"url":"https://narzaut.github.io/diccionario-react/#/"
-		},
-		"weatherApp":{
-			"title":"Weather App",
-			"description":"First app I made with React",
-			"url":"https://narzaut.github.io/weather-react-app/#/"
-		},
-		"escuchaActiva":{
-			"title":"EscuchActiva Platform",
-			"description":"Front-end developer in a webinar platform.",
-			"url":"https://github.com/narzaut"
-		},
-		"expenseTracker":{
-			"title":"Expense Tracker",
-			"description":"Second app I made with React.",
-			"url":"https://narzaut.github.io/expense-tracker-react/#/"
-		}	
+		"projects": {
+			"dictionary":{
+				"id":0,
+				"title":"Dictionary",
+				"description":"This is a React technical test for a software developing company.",
+				"url":"https://narzaut.github.io/diccionario-react/#/",
+				"imgFile":"diccionario-react.webp"
+			},
+			"weatherApp":{
+				"id":1,
+				"title":"Weather App",
+				"description":"First app I made with React",
+				"url":"https://narzaut.github.io/weather-react-app/#/",
+				"imgFile":"weather-app.webp"
+			},
+			"escuchaActiva":{
+				"id":2,
+				"title":"EscuchActiva Platform",
+				"description":"Front-end developer in a webinar platform.",
+				"url":"https://github.com/narzaut",
+				"imgFile":"escuchaactiva.webp"
+			},
+			"expenseTracker":{
+				"id":3,
+				"title":"Expense Tracker",
+				"description":"Second app I made with React.",
+				"url":"https://narzaut.github.io/expense-tracker-react/#/",
+				"imgFile":"expense-tracker.webp"
+			}	
+		}
+		
 	},
 	"footer":{
 		"credits":{
-			"made":"Made by",
+			"made":"Developed by",
 			"by":"Ignacio Arzaut"
 		},
 		"copyright":"© 2021"

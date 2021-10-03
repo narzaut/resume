@@ -1,6 +1,5 @@
 
 import React, { Children, useContext, useState } from 'react'
-
 export const GlobalContext = React.createContext()
 
 export const Provider = (props) => {

@@ -53,6 +53,11 @@ html, body{
 	transition: all 0.1s ease-out;
 }
 
+.press-animation:active{
+	transform: translateY(4px);
+	transition: all 0.1s ease-out;
+}
+
 .glass {
 	background-color: rgba(0, 0, 0, 0.15);   
 	backdrop-filter: blur(5px);

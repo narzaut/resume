@@ -1,10 +1,12 @@
 import React, { useContext, useState } from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
 import { GlobalContext } from '../context/GlobalState';
+
 export const NavBar = ({ data }) => {
 	const { languageState } = useContext(GlobalContext)
 	const [language, setLanguage] = languageState
 	const [flagUrl, setFlagUrl] = useState('https://lipis.github.io/flag-icon-css/flags/4x3/ar.svg')
+	
 	return(
 		<nav class="relative glass shadow-lg fadeInDown pt-12 pb-8 lg:py-14 lg:items-center  w-full flex md:flex-row lg:flex-row  justify-around ">
   	  <ul className='text-xs md:text-lg absolute px-4 w-full text-center flex flex-row font-mono  mx-10 max-w-lg justify-around' id='nav' >
